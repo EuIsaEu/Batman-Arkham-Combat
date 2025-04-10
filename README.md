@@ -6,7 +6,7 @@
 # Batman Arkham's Freeflow Combat | Mix and Jam
 
 <p align="center">
-<img width="900px" src="http://mixandjam.com/wp-content/uploads/2021/07/github.jpg">
+<img width="900px" src="https://github.com/mixandjam/Batman-Arkham-Combat/blob/main/git-banner.jpg">
 </p>
 
 This is the official respository for the episode <b>#28</b> of the [Mix and Jam Youtube Channel](https://www.youtube.com/c/MixAndJam)!
