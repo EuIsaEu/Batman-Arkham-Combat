@@ -163,6 +163,7 @@ public class CombatScript : MonoBehaviour
 
     void CounterCheck()
     {
+        animator.SetTrigger("Dodge");
         //Initial check
         if (isCountering || isAttackingEnemy || !enemyManager.AnEnemyIsPreparingAttack())
             return;
