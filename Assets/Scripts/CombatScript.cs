@@ -87,7 +87,8 @@ public class CombatScript : MonoBehaviour
     public void Attack(EnemyScript target, float distance)
     {
         //Types of attack animation
-        attacks = new string[] { "AirKick", "AirKick2", "AirPunch", "AirKick3" };
+        // attacks = new string[] { "AirKick", "AirKick2", "AirPunch", "AirKick3" };
+        attacks = new string[] { "AirKick", "AirKick2" };
 
         //Attack nothing in case target is null
         if (target == null)
@@ -163,7 +164,7 @@ public class CombatScript : MonoBehaviour
 
     void CounterCheck()
     {
-        animator.SetTrigger("Dodge");
+        // animator.SetTrigger("Dodge");
         //Initial check
         if (isCountering || isAttackingEnemy || !enemyManager.AnEnemyIsPreparingAttack())
             return;
