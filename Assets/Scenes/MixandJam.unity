@@ -42383,7 +42383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveAxis: {x: 0, y: 0}
-  movementSpeed: 5.3
+  movementSpeed: 11
   rotationSpeed: 0.2
   fallSpeed: 0.2
   acceleration: 1

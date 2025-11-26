@@ -30,6 +30,9 @@ public class MovementInput : MonoBehaviour
 		anim = this.GetComponent<Animator>();
 		cam = Camera.main;
 		controller = this.GetComponent<CharacterController>();
+
+		Cursor.visible = false;
+		Cursor.lockState = CursorLockMode.Locked;
 	}
 
 	void Update()
@@ -103,7 +106,7 @@ public class MovementInput : MonoBehaviour
 		}
 		else
 		{
-			anim.SetFloat("InputMagnitude", inputMagnitude * acceleration, .1f,Time.deltaTime);
+			anim.SetFloat("InputMagnitude", inputMagnitude * acceleration, .1f, Time.deltaTime);
 		}
 	}
 
